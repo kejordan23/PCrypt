@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp">
 			<Option target="project"/>
 		</Unit>
