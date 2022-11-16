@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Action.h
+iostream
+-
+Color.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Color.h
+
 /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/CImg.h
 cstdio
 -
@@ -116,15 +122,57 @@ tinyexr.h
 CImg.h
 /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/CImg.h
 
-/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp
-Function.h
-/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Char.h
+iostream
+-
+string
+-
+fstream
+-
+Color.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Color.h
+
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Color.h
 
 /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.h
 CImg.h
 /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/CImg.h
 iostream
 -
+fstream
+-
+Action.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Action.h
+String.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/String.h
+stdlib.h
+-
+
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/String.h
+Char.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Char.h
+vector
+-
+
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp
+string
+-
+iostream
+-
+ctype.h
+-
+fstream
+-
+vector
+-
+Function.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.h
+Char.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Char.h
+String.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/String.h
+Action.h
+/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Action.h
 
 /usr/X11R6/include/X11/X.h
 X11/Xmd.h

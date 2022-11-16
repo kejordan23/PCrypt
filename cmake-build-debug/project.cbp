@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Action.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Char.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Color.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/String.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp">

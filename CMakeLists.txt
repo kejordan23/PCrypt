@@ -3,7 +3,7 @@ project(project)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(project main.cpp Function.h Function.cpp)
+add_executable(project main.cpp Function.h Function.cpp Char.h String.h Color.h Action.h)
 
 # You can alter these according to your needs, e.g if you don't need to display images - set(YOU_NEED_X11 0)
 set(YOU_NEED_X11 1)
