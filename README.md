@@ -30,8 +30,10 @@ for users to "draw" with pixels to create an encoded image.
 
 ### For best experience
 1. Set XQuartz preferences
+
    ![Alt text](XQuartzpref1.jpeg)
    ![Alt text](XQuartzpref2.jpeg)
+
 2. To take a screenshot
    1. While in XQuartz full screen mode, click the window you 
    want to save.
