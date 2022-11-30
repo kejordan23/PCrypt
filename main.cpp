@@ -23,7 +23,16 @@ int main(int argc, char* argv[])
 {
     char choice;
     int end = false;
-    cout<<"\t\t\tWelcome to PCrypt"<<endl;
+    cout<<"\t\t\tWelcome to PCrypt\n"<<endl;
+    cout<<"An esoteric programming language that allows users to encrypt\n"
+          "and decrypt data through image processing.\n"
+          "\n"
+          "In other words...\n"
+          "\n"
+          "Coding for artists! Users can visualize complicated code\n"
+          "as colored pixel patterns. Images both created with PCrypt or not\n"
+          "can be translated back to data. There is also an option\n"
+          "for users to \"draw\" with pixels to create an encoded image.\n"<<endl;
 
     while(!end) {
         cout << "Options:" << endl;
@@ -35,20 +44,52 @@ int main(int argc, char* argv[])
         cout << ">> ";
         cin >> choice;
 
+        ifstream fr;
         if (choice == '1') {
             bool home = false;
             while(!home) {
+                bool valid = false;
                 cout << "<*Data translator*>" << endl;
                 cout << "Enter final image width\n*> ";
-                cin >> wi;
+                while(!valid) {
+                    cin >> wi;
+                    if (strlen(wi) > 4)
+                        cout << "Please enter a valid image width between 1 and 9000\n*> ";
+                    else
+                        valid = true;
+                }
+                valid = false;
                 cout << "Enter final image height\n*> ";
-                cin >> he;
+                while(!valid) {
+                    cin >> he;
+                    if (strlen(he) > 3)
+                        cout << "Please enter a valid image height between 1 and 900\n*> ";
+                    else
+                        valid = true;
+                }
+                valid = false;
                 cout << "Enter final pixel size\n*> ";
-                cin >> pix;
+                while(!valid) {
+                    cin >> pix;
+                    if (strlen(pix) > 2)
+                        cout << "Please enter a valid pixel size between 1 and 90\n*> ";
+                    else
+                        valid = true;
+                }
+                valid = false;
                 cout << "Enter final image title\n*> ";
                 cin >> name;
                 cout << "Enter absolute path to data\n*> ";
-                cin >> path;
+                while(!valid) {
+                    cin >> path;
+                    fr.open(path);
+                    if (!fr.is_open()) {
+                        cout << "Error opening file" << endl;
+                        cout << "Enter absolute path to data\n*> ";
+                    }
+                    else
+                        valid = true;
+                }
                 bool wdigits = true;
                 bool hdigits = true;
                 bool pdigits = true;
@@ -73,15 +114,28 @@ int main(int argc, char* argv[])
                     h = atoi(he);
                     p = atoi(pix);
                     Function f(w, h, name);
-                    ifstream fr;
-                    fr.open(path);
-                    if (!fr.is_open())
-                        cout << "Error opening file" << endl;
-                    else {
-                        if(ismain)
-                            f.createImage(fr, true, p, true);
-                        else
-                            f.createImage(fr, false, p, false);
+                    if(ismain)
+                        f.createImage(fr, true, p, true);
+                    else
+                        f.createImage(fr, false, p, false);
+
+                }
+                char a;
+                bool v = false;
+                cout<<"Would you like to take a screenshot?(y/n)\n*>";
+                while(!v) {
+                    cin >> a;
+                    if(a == 'y'){
+
+                        valid = true;
+                    }
+                    else if (a == 'n') {
+                        //do
+                        valid = true;
+                    }
+                    else{
+                        cout<<"Enter a valid choice"<<endl;
+                        cout<<"Would you like to take a screenshot?(y/n)\n*>";
                     }
                 }
                 char c;
@@ -105,32 +159,6 @@ int main(int argc, char* argv[])
     }
 
 
-//    string h = "(153, 0, 51)";
-//    string e = "(153, 0, 0)";
-//    string l = "(51, 51, 0)";
-//    string o = "(0, 102, 0)";
-//    vector<string> p = vector<string>();
-//    p.push_back(h);
-//    p.push_back(e);
-//    p.push_back(l);
-//    p.push_back(l);
-//    p.push_back(o);
-//    String c(p);
-//
-//    cout<<c<<endl;
-//
-    //f.drawPixels();
-    //f.item_image_zoomer();
-//    string s = "print";
-//    Action a(s);
-//    Color c = a.getColor();
-//    c.print();
-//    int** fr = a.getForm();
-//    for(int i = 0; i< 3; i++){
-//        for(int j = 0; j< 3; j++)
-//            cout<<fr[i][j]<<" ";
-//        cout<<endl;
-//    }
 
     ifstream fr;
     fr.open("/Users/kyliejordan/Desktop/Test/apollo.agc");

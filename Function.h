@@ -40,6 +40,7 @@ public:
     void changeColor(unsigned char*&);
     void createImage(ifstream&, bool, int, bool);
     void translate(int, int, Color&);
+    void screenShot();
 };
 
 #endif //PROJECT_FUNCTION_H
