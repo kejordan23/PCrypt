@@ -32,7 +32,9 @@ int main(int argc, char* argv[])
           "Coding for artists! Users can visualize complicated code\n"
           "as colored pixel patterns. Images both created with PCrypt or not\n"
           "can be translated back to data. There is also an option\n"
-          "for users to \"draw\" with pixels to create an encoded image.\n"<<endl;
+          "for users to \"draw\" with pixels to create an encoded image.\n"
+          "\n"
+          "For more information: https://github.com/kejordan23/PCrypt.git\n"<<endl;
 
     while(!end) {
         cout << "Options:" << endl;
@@ -119,24 +121,6 @@ int main(int argc, char* argv[])
                     else
                         f.createImage(fr, false, p, false);
 
-                }
-                char a;
-                bool v = false;
-                cout<<"Would you like to take a screenshot?(y/n)\n*>";
-                while(!v) {
-                    cin >> a;
-                    if(a == 'y'){
-
-                        valid = true;
-                    }
-                    else if (a == 'n') {
-                        //do
-                        valid = true;
-                    }
-                    else{
-                        cout<<"Enter a valid choice"<<endl;
-                        cout<<"Would you like to take a screenshot?(y/n)\n*>";
-                    }
                 }
                 char c;
                 cout << "Would you like to translate more data?(y/n)\n*> ";
