@@ -84,25 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Action.h">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Action.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Char.h">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Char.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Color.h">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Color.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Function.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.h">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Function.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/String.h">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/String.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp">
+		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/main.cpp">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/CMakeLists.txt">

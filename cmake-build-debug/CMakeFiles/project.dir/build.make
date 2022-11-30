@@ -66,42 +66,42 @@ include CMakeFiles/project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project.dir/flags.make
 
-CMakeFiles/project.dir/main.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/main.cpp.o -c /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp
+CMakeFiles/project.dir/src/main.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/main.cpp.o -c /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/main.cpp
 
-CMakeFiles/project.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp > CMakeFiles/project.dir/main.cpp.i
+CMakeFiles/project.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/main.cpp > CMakeFiles/project.dir/src/main.cpp.i
 
-CMakeFiles/project.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/main.cpp -o CMakeFiles/project.dir/main.cpp.s
+CMakeFiles/project.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/main.cpp -o CMakeFiles/project.dir/src/main.cpp.s
 
-CMakeFiles/project.dir/Function.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/Function.cpp.o: ../Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/Function.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Function.cpp.o -c /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp
+CMakeFiles/project.dir/src/Function.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/Function.cpp.o: ../src/Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/src/Function.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/src/Function.cpp.o -c /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Function.cpp
 
-CMakeFiles/project.dir/Function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/Function.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp > CMakeFiles/project.dir/Function.cpp.i
+CMakeFiles/project.dir/src/Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/src/Function.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Function.cpp > CMakeFiles/project.dir/src/Function.cpp.i
 
-CMakeFiles/project.dir/Function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/Function.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/Function.cpp -o CMakeFiles/project.dir/Function.cpp.s
+CMakeFiles/project.dir/src/Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/src/Function.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kyliejordan/Desktop/CRCP5301/PCrypt/project/src/Function.cpp -o CMakeFiles/project.dir/src/Function.cpp.s
 
 # Object files for target project
 project_OBJECTS = \
-"CMakeFiles/project.dir/main.cpp.o" \
-"CMakeFiles/project.dir/Function.cpp.o"
+"CMakeFiles/project.dir/src/main.cpp.o" \
+"CMakeFiles/project.dir/src/Function.cpp.o"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
-project: CMakeFiles/project.dir/main.cpp.o
-project: CMakeFiles/project.dir/Function.cpp.o
+project: CMakeFiles/project.dir/src/main.cpp.o
+project: CMakeFiles/project.dir/src/Function.cpp.o
 project: CMakeFiles/project.dir/build.make
 project: /usr/X11R6/lib/libSM.dylib
 project: /usr/X11R6/lib/libICE.dylib
