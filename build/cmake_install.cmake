@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kyliejordan/desktop/CRCP5301/PCrypt/project
+# Install script for directory: /Users/kyliejordan/desktop/CRCP5301/PCrypt/PCrypt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

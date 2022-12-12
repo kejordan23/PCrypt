@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/project.dir/Function.cpp.o"
-  "CMakeFiles/project.dir/Function.cpp.o.d"
-  "CMakeFiles/project.dir/main.cpp.o"
-  "CMakeFiles/project.dir/main.cpp.o.d"
+  "CMakeFiles/project.dir/src/Function.cpp.o"
+  "CMakeFiles/project.dir/src/Function.cpp.o.d"
+  "CMakeFiles/project.dir/src/main.cpp.o"
+  "CMakeFiles/project.dir/src/main.cpp.o.d"
   "project"
   "project.pdb"
 )
