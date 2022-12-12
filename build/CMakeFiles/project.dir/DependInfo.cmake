@@ -1,5 +1,5 @@
 
-# Consider dependencies only in PCrypt.
+# Consider dependencies only in project.
 set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kyliejordan/desktop/CRCP5301/PCrypt/project/src/Function.cpp" "CMakeFiles/project.dir/src/Function.cpp.o" "gcc" "CMakeFiles/project.dir/src/Function.cpp.o.d"
-  "/Users/kyliejordan/desktop/CRCP5301/PCrypt/project/src/main.cpp" "CMakeFiles/project.dir/src/main.cpp.o" "gcc" "CMakeFiles/project.dir/src/main.cpp.o.d"
+  "/Users/kyliejordan/desktop/CRCP5301/PCrypt/PCrypt/src/Function.cpp" "CMakeFiles/project.dir/src/Function.cpp.o" "gcc" "CMakeFiles/project.dir/src/Function.cpp.o.d"
+  "/Users/kyliejordan/desktop/CRCP5301/PCrypt/PCrypt/src/main.cpp" "CMakeFiles/project.dir/src/main.cpp.o" "gcc" "CMakeFiles/project.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

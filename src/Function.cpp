@@ -52,8 +52,23 @@ void* Function::item_image_zoomer() {
                             visu.draw_rectangle(x, y, x + 20, y + 20, color, 1).display(dispz);
                             img.draw_point(x0 + (x / 25) - 20, y0 + (y / 25) - 20, color).display(disp);
                         }
-                        else if (dispz.is_keyB() || disp.is_keyB()){
+                        if (dispz.is_keyB() || disp.is_keyB()){
                             visu.draw_rectangle(x, y, x + 20, y + 20, red, 1).display(dispz);
+                            img.draw_point(x0 + (x / 25) - 20, y0 + (y / 25) - 20, red).display(disp);
+                        }
+                        if (dispz.is_keyC() || disp.is_keyC()){
+                            const unsigned color[] = {green[0], green[2], green[1]};
+                            visu.draw_rectangle(x, y, x + 20, y + 20, color, 1).display(dispz);
+                            img.draw_point(x0 + (x / 25) - 20, y0 + (y / 25) - 20, red).display(disp);
+                        }
+                        if (dispz.is_keyD() || disp.is_keyD()){
+                            const unsigned color[] = {green[0], green[1], green[1]};
+                            visu.draw_rectangle(x, y, x + 20, y + 20, color, 1).display(dispz);
+                            img.draw_point(x0 + (x / 25) - 20, y0 + (y / 25) - 20, red).display(disp);
+                        }
+                        if (dispz.is_keyE() || disp.is_keyE()){
+                            const unsigned color[] = {green[1], green[1], green[0]};
+                            visu.draw_rectangle(x, y, x + 20, y + 20, color, 1).display(dispz);
                             img.draw_point(x0 + (x / 25) - 20, y0 + (y / 25) - 20, red).display(disp);
                         }
                     }
